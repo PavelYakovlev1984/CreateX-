@@ -4,10 +4,15 @@
 @import "fonts";
 @import "settings";
 
+// компоненты страницы
+@import "./components/form-field";
+
 // подключения компонентов страницы (большие компоненты)
 @import "./components/header";
 @import "./components/hero";
 @import "./components/about-section";
+@import "./components/mission";
+@import "./components/services-section";
 
 // подключения компонентов страницы (маленькие компоненты)
 @import "./components/nav";
