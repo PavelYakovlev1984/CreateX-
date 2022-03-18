@@ -191,3 +191,9 @@ a {
 .section-offset {
   padding: 120px;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: var(--grid-gap);
+}
